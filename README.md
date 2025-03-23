@@ -1,3 +1,9 @@
+## 진행 내역
+|날짜|내역|진행도|비고|
+|:---:|:---:|:---:|:---:|
+|03.23|First Commit, 기본 기능 추가|20%|@nestjs/websockets & @nestjs/platform-socket.io 패키지 설치|
+
+---
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
