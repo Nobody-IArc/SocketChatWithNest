@@ -7,8 +7,20 @@
 	<body>
 		<div id="chat">With Nest</div>
 		
+		<div>
+			<h2>Room List</h2>
+			<ul id="room-list"></ul>
+		</div>
+		
 		<label for="message"></label><input type="text" id="message" placeholder="Type your message here...">
 		<button onclick="sendMessage()">Send</button>
+		<button onclick="createRoom()">Create Room</button>
+		
+		<div>
+			<h2>Notice</h2>
+			<div id="notice"></div>
+		</div>
+		
 		
 	</body>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
