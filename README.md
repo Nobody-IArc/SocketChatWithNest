@@ -2,6 +2,7 @@
 |날짜|내역|진행도|비고|
 |:---:|:---:|:---:|:---:|
 |03.23|First Commit, 기본 기능 추가|20%|@nestjs/websockets & @nestjs/platform-socket.io 패키지 설치|
+|03.24|Socket을 이용한 실시간 채팅 기능 구현|40%||
 
 ---
 <p align="center">
