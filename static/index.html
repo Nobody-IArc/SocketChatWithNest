@@ -6,5 +6,27 @@
 	</head>
 	<body>
 		<div id="chat">With Nest</div>
+		
+		<label for="message"></label><input type="text" id="message" placeholder="Type your message here...">
+		<button onclick="sendMessage()">Send</button>
 	</body>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+	<script src="http://localhost:3000/socket.io/socket.io.js"></script>
+	<script>
+		const socket = io('http://localhost:3000');
+		
+		function sendMessage() {
+			const message = $('#message').val();
+			socket.emit('message', message);
+		}
+		
+		socket.on('connect', () => {
+			console.log('Connected');
+		});
+		
+		socket.on('message', message => {
+			$('#chat').append(`<div>${message}</div>`);
+		});
+	</script>
 </html>
