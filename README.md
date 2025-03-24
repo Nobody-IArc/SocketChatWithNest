@@ -4,6 +4,7 @@
 |03.23|First Commit, 기본 기능 추가|20%|@nestjs/websockets & @nestjs/platform-socket.io 패키지 설치|
 |03.24|Socket을 이용한 실시간 채팅 기능 구현|40%||
 |03.24 -2|Gateway 사용 및 개인 식별화 기능|50%|nickname 속성 및 네임스페이스 사용|
+|03.24 -3|방 구별 기능 구현|80%|ESLint 기준 맞춰 리팩터링 할 예정|
 
 ---
 <p align="center">
